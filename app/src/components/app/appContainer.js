@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F5FCFF',
+        //backgroundColor: '#F5FCFF',
     },
     welcome: {
         fontSize: 20,
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
         margin: 20,
     },
     container: {
-        backgroundColor: '#F5FCFF',
+        //backgroundColor: '#F5FCFF',
         paddingTop: 40,
         padding: 10,
         alignItems: 'center',

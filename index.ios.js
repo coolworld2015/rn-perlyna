@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 import React, { Component } from 'react';
 
@@ -8,4 +8,4 @@ import {
 
 import App from './app/src/components/app/app';
 
-AppRegistry.registerComponent('rxMovies', () => App);
+AppRegistry.registerComponent('rnPerlyna', () => App);
