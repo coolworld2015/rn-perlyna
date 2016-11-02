@@ -103,7 +103,7 @@ class Home extends Component {
                         style={styles.img1}
                     />
 
-                    <Text style={styles.text}>
+                    <Text style={styles.text2}>
                         Новый культурно - оздоровительный комплекс с гостиницей и ресторанами в пос. Сокирна, Черкасский
                         район. Мы находимся на правом берегу Днепра, в самом центре Украины, между гг. Киев и Черкассы.
                         Резорт расположен в зеленой, экологически чистой зоне около мошногорского горного массива.
@@ -222,6 +222,13 @@ const styles = StyleSheet.create({
         fontSize: 22,
         textAlign: 'center',
         fontWeight: 'bold'
+    },
+    text2: {
+        color: 'white',
+        margin: 15,
+        fontSize: 18,
+        textAlign: 'justify',
+        marginTop: -10
     },
     text: {
         color: 'white',
