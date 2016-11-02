@@ -102,52 +102,114 @@ class Home extends Component {
                     <Image
                         source={require('../../../logo.jpg')}
                         resizeMode='stretch'
-                        style={styles.img}
+                        style={styles.img1}
                     />
 
-                    <Text style={{
-                        color: 'white',
-                        margin: 15,
-                        fontSize: 18,
-                        textAlign: 'justify'
-                    }}>
+                    <Text style={styles.text}>
                         Новый культурно - оздоровительный комплекс с гостиницей и ресторанами в пос. Сокирна, Черкасский
                         район. Мы находимся на правом берегу Днепра, в самом центре Украины, между гг. Киев и Черкассы.
                         Резорт расположен в зеленой, экологически чистой зоне около мошногорского горного массива.
-
                     </Text>
 
                     <Image
                         source={require('../../../resort1.jpg')}
                         resizeMode='stretch'
-                        style={{
-                            height: 200,
-                            width: 300,
-                            borderRadius: 5,
-                        }}
+                        style={styles.img}
                     />
 
-                    <Text style={{
-                        color: 'white',
-                        margin: 15,
-                        fontSize: 18,
-                        textAlign: 'justify'
-                    }}>
-                        Новый культурно - оздоровительный комплекс с гостиницей и ресторанами в пос. Сокирна, Черкасский
-                        район. Мы находимся на правом берегу Днепра, в самом центре Украины, между гг. Киев и Черкассы.
-                        Резорт расположен в зеленой, экологически чистой зоне около мошногорского горного массива.
-
+                    <Text style={styles.text}>
+                        Для Вашего отдыха:
+                        гостиница, открытый бассейн с видом на Днепр, 25 м, закрытый бассейн с зоной джакузи, 25 м,
+                        рестораны, кафе, банкетные залы до 200 мест, прогулочный понтон, квадроциклы, водные мотоциклы,
+                        конференц-сервис, и многое другое...
                     </Text>
 
                     <Image
                         source={require('../../../resort2.jpg')}
                         resizeMode='stretch'
-                        style={{
-                            height: 200,
-                            width: 300,
-                            borderRadius: 5,
-                        }}
+                        style={styles.img}
                     />
+
+                    <Text style={styles.text}>
+                        Мы провели полную реконструкцию здания и прилегающей территории; построили 2 бассейна
+                        по 25 м; открыли 2 ресторана: основной ресторан à la carte вместимостью около 200 человек, и
+                        летний кафе-кафе у бассейна. Специально проработанное меню удовлетворит даже любителей высокой
+                        кухни.
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort3.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text}>
+                        В просторных залах ресторана каждый будет чувствовать себя комфортно. Помещение зонировано под
+                        различные нужды. Для проведения банкетов, свадеб, корпоративных мероприятий с большим
+                        (до 200-т чел.) количеством посетителей можно использовать общий зал. Деловая встреча или
+                        переговоры — в отдельных оборудованных аудиториях вас никто не потревожит.
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort4.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text}>
+                        В здании гостиницы находится закрытый бассейн размером 25 м с зоной джакузи.
+                        Облагородив прибрежную зону, мы построили маяк и сделали возможность спуска на воду малых
+                        катеров, яхт и мотоциклов. Полностью современный номерной фонд соответствует высоким
+                        требованиям наших гостей.
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort5.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text}>
+                        Мы также позаботились о Вашем досуге: проводя у нас время, кроме бассейнов, есть возможность
+                        взять на прокат водные мотоциклы и квадроциклы.
+                        Для маленьких детей есть своя огороженная площадка с аттракционами, работает детский аниматор.
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort6.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text}>
+                        Совсем недалеко от комплекса находятся охотничьи угодья урочища «Каменная дубина».
+                        Для любителей или профессионалов мы организуем отличную охоту на пернатую дичь,
+                        пушного зверя, оленя, кабана или косулю.
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort7.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text}>
+                        Кроме прекрасной природы в окрестностях и предоставляемых нами услуг, в относительной близости
+                        есть что посмотреть, включая достопримечательности из Золотой подковы Черкащины:
+                        заповедник «Трахтемиров», Канев и Каневские горы, Мошногорье, заповедник «Урочище Холодный Яр»,
+                        село Суботов, город Чигирин, и другие интересные места с историей...
+                    </Text>
+
+                    <Image
+                        source={require('../../../resort8.jpg')}
+                        resizeMode='stretch'
+                        style={styles.img}
+                    />
+
+                    <Text style={styles.text1}>
+                        ПРИЕЗЖАЙТЕ К НАМ В ГОСТИ...
+                        ВАМ ЗДЕСЬ ПОНРАВИТСЯ!
+                    </Text>
 
                 </View>
             </ScrollView>
@@ -155,40 +217,30 @@ class Home extends Component {
     }
 }
 
-
 const styles = StyleSheet.create({
-    imgsList: {
-        flex: 1,
-        flexDirection: 'row',
-        padding: 0,
-        alignItems: 'center',
-        borderColor: '#D7D7D7',
-        borderBottomWidth: 1,
-        backgroundColor: '#fff'
-    },
-    countHeader: {
-        fontSize: 16,
+    text1: {
+        color: 'white',
+        margin: 15,
+        fontSize: 22,
         textAlign: 'center',
-        padding: 15,
-        backgroundColor: '#F5FCFF',
+        fontWeight: 'bold'
     },
-    countFooter: {
-        fontSize: 16,
-        textAlign: 'center',
-        padding: 10,
-        borderColor: '#D7D7D7',
-        backgroundColor: 'whitesmoke'
+    text: {
+        color: 'white',
+        margin: 15,
+        fontSize: 18,
+        textAlign: 'justify'
     },
     img: {
+        height: 200,
+        width: 300,
+        borderRadius: 5
+    },
+    img1: {
         height: 200,
         width: 200,
         borderRadius: 20,
         margin: 0
-    },
-    error: {
-        color: 'red',
-        paddingTop: 10,
-        textAlign: 'center'
     }
 });
 
