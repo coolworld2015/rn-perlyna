@@ -98,8 +98,8 @@ class Home extends Component {
                 <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
 
                     <Image
-                        source={require('../../../logo.jpg')}
-                        resizeMode='stretch'
+                        source={require('./img/logo.png')}
+                        resizeMode='contain'
                         style={styles.img1}
                     />
 
@@ -110,7 +110,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort1.jpg')}
+                        source={require('./img/resort1.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -123,7 +123,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort2.jpg')}
+                        source={require('./img/resort2.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -136,7 +136,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort3.jpg')}
+                        source={require('./img/resort3.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -149,7 +149,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort4.jpg')}
+                        source={require('./img/resort4.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -162,7 +162,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort5.jpg')}
+                        source={require('./img/resort5.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -174,7 +174,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort6.jpg')}
+                        source={require('./img/resort6.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -186,7 +186,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort7.jpg')}
+                        source={require('./img/resort7.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
@@ -199,7 +199,7 @@ class Home extends Component {
                     </Text>
 
                     <Image
-                        source={require('../../../resort8.jpg')}
+                        source={require('./img/resort8.jpg')}
                         resizeMode='stretch'
                         style={styles.img}
                     />
