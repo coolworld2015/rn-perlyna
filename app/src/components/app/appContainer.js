@@ -18,39 +18,16 @@ import {
 } from 'react-native';
 
 import Search from '../search/search';
-import Movies from '../movies/movies';
+import Movies from '../home/home';
 
 class AppContainer extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
-
-        App = {
-            movies: {
-                refresh: false
-            }
+        this.state = {
+            selectedTab: 'Movies'
         };
 
-        this.init();
-    }
-
-    init() {
-        AsyncStorage.getItem('rn-movies.movies')
-            .then(req => JSON.parse(req))
-            .then(json => {
-                console.log(json);
-                if (json == undefined || json == null || json[0] == null) {
-                    this.setState({
-                        selectedTab: 'Search'
-                    });
-                } else {
-                    this.setState({
-                        selectedTab: 'Movies'
-                    });
-                }
-            })
-            .catch(error => console.log(error))
     }
 
     render() {
@@ -69,10 +46,8 @@ class AppContainer extends Component {
                         }}
                         initialRoute={{
                             component: Movies,
-                            title: 'Favorites',
-                            passProps: {
-                                searchQuery: 'Sex'
-                            }
+                            title: 'PERLYNA RESORT',
+                            passProps: {}
                         }}
                     />
                 </TabBarIOS.Item>
