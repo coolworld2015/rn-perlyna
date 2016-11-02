@@ -97,8 +97,6 @@ class Home extends Component {
             <ScrollView style={{backgroundColor: 'black'}}>
                 <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
 
-                    {/*<Text style={{color: 'white'}}>PERLYNA RESORT</Text>*/}
-
                     <Image
                         source={require('../../../logo.jpg')}
                         resizeMode='stretch'
