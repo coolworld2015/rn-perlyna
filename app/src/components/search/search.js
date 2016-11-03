@@ -19,9 +19,6 @@ import {
     WebView
 } from 'react-native';
 
-import SearchResults from './searchResults';
-import SearchIMDB from './searchIMDB';
-
 class Search extends Component {
     constructor(props) {
         super(props);

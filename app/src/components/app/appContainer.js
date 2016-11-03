@@ -53,7 +53,7 @@ class AppContainer extends Component {
                 </TabBarIOS.Item>
 
                 <TabBarIOS.Item
-                    title="Search"
+                    title="Map"
                     systemIcon="search"
                     selected={this.state.selectedTab == 'Search'}
                     onPress={()=> this.setState({selectedTab: 'Search'})}>
@@ -64,7 +64,7 @@ class AppContainer extends Component {
                         }}
                         initialRoute={{
                             component: Search,
-                            title: 'Search'
+                            title: 'Map'
                         }}
                     />
                 </TabBarIOS.Item>
