@@ -25,9 +25,14 @@ class AppContainer extends Component {
         super(props);
 
         this.state = {
-            selectedTab: 'Movies'
+            selectedTab: 'Search'
         };
 
+        App = {
+            search: {
+                refresh: false
+            }
+        };
     }
 
     render() {
@@ -62,9 +67,23 @@ class AppContainer extends Component {
                         style={{
                             flex: 1
                         }}
+                        ref="emp"
                         initialRoute={{
                             component: Search,
-                            title: 'Map'
+                            title: 'Map',
+                            rightButtonTitle: 'Refresh',
+                            onRightButtonPress: () => {
+                                App.search.refresh = true;
+                                this.refs.emp.navigator.push({
+                                    title: "Map",
+                                    component: Search,
+                                    rightButtonTitle: 'Back',
+                                    onRightButtonPress: () => {
+                                        App.search.refresh = true;
+                                        this.refs.emp.navigator.popToTop()
+                                    }
+                                })
+                            }
                         }}
                     />
                 </TabBarIOS.Item>
