@@ -71,7 +71,7 @@ class AppContainer extends Component {
                         initialRoute={{
                             component: Search,
                             title: 'Map',
-                            rightButtonTitle: 'Refresh',
+                            rightButtonTitle: 'Clear',
                             onRightButtonPress: () => {
                                 App.search.refresh = true;
                                 this.refs.emp.navigator.push({
