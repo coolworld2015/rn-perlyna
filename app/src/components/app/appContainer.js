@@ -18,14 +18,14 @@ import {
 } from 'react-native';
 
 import Search from '../search/search';
-import Movies from '../home/home';
+import Home from '../home/home';
 
 class AppContainer extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            selectedTab: 'Search'
+            selectedTab: 'Home'
         };
 
         App = {
@@ -40,17 +40,17 @@ class AppContainer extends Component {
             <TabBarIOS style={styles.AppContainer}>
 
                 <TabBarIOS.Item
-                    title="Movies"
+                    title="Home"
                     systemIcon="favorites"
-                    selected={this.state.selectedTab == 'Movies'}
-                    onPress={()=> this.setState({selectedTab: 'Movies'})}>
+                    selected={this.state.selectedTab == 'Home'}
+                    onPress={()=> this.setState({selectedTab: 'Home'})}>
 
                     <NavigatorIOS
                         style={{
                             flex: 1
                         }}
                         initialRoute={{
-                            component: Movies,
+                            component: Home,
                             title: 'PERLYNA RESORT',
                             passProps: {}
                         }}
