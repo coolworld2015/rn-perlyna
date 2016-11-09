@@ -19,7 +19,7 @@ import {
     WebView
 } from 'react-native';
 
-class Search extends Component {
+class Map extends Component {
     constructor(props) {
         super(props);
 
@@ -79,4 +79,4 @@ class Search extends Component {
 
 const styles = StyleSheet.create({});
 
-export default Search;
+export default Map;

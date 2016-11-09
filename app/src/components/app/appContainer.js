@@ -17,8 +17,8 @@ import {
     AsyncStorage
 } from 'react-native';
 
-import Search from '../search/search';
 import Home from '../home/home';
+import Map from '../map/map';
 
 class AppContainer extends Component {
     constructor(props) {
@@ -59,9 +59,10 @@ class AppContainer extends Component {
 
                 <TabBarIOS.Item
                     title="Map"
-                    systemIcon="search"
-                    selected={this.state.selectedTab == 'Search'}
-                    onPress={()=> this.setState({selectedTab: 'Search'})}>
+                    //systemIcon="search"
+                    icon={require('../home/img/map.png')}
+                    selected={this.state.selectedTab == 'Map'}
+                    onPress={()=> this.setState({selectedTab: 'Map'})}>
 
                     <NavigatorIOS
                         style={{
@@ -69,14 +70,14 @@ class AppContainer extends Component {
                         }}
                         ref="emp"
                         initialRoute={{
-                            component: Search,
+                            component: Map,
                             title: 'Map',
                             rightButtonTitle: 'Clear',
                             onRightButtonPress: () => {
                                 App.search.refresh = true;
                                 this.refs.emp.navigator.push({
                                     title: "Map",
-                                    component: Search,
+                                    component: Map,
                                     rightButtonTitle: 'Back',
                                     onRightButtonPress: () => {
                                         App.search.refresh = true;
